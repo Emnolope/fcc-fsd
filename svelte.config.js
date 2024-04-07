@@ -12,14 +12,7 @@ const config = {
 		// If your environment is not supported or you settled on a specific environment, switch out the adapter.
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter(),
-		vite: {
-			server: {
-				hmr: {
-					clientPort: process.env.HMR_HOST ? 443 : 3000,
-					host: process.env.HMR_HOST ? process.env.HMR_HOST.substring("https://".length) : "localhost"
-				}
-			}
-		}
+		vite: {}
 	}
 };
 
