@@ -1,0 +1,24 @@
+--root {
+  --bullshit-variable: "what?";
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    aliceblue,
+    lightcyan
+  );
+  margin: 0;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+@media (min-width: 720px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+}
